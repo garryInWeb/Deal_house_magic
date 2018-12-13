@@ -20,7 +20,7 @@ public class PlainText extends AbstractSelectable {
 
     public PlainText(String text) {
         this.sourceTexts = new ArrayList<String>();
-        sourceTexts.add(text);
+        sourceTexts.add(text.trim());
     }
 
     public static PlainText create(String text) {
